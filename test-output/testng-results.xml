@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13786" started-at="2020-07-31T19:51:17 EET" finished-at="2020-07-31T19:51:31 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13786" started-at="2020-07-31T19:51:17 EET" finished-at="2020-07-31T19:51:31 EET">
+      <class name="TestCasesRepository.LoginTest">
+        <test-method status="PASS" signature="Browser_Init()[pri:0, instance:TestCasesRepository.LoginTest@694e1548]" name="Browser_Init" is-config="true" duration-ms="8846" started-at="2020-07-31T19:51:17 EET" finished-at="2020-07-31T19:51:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method status="PASS" signature="loginWithInvalidData()[pri:0, instance:TestCasesRepository.LoginTest@694e1548]" name="loginWithInvalidData" duration-ms="1232" started-at="2020-07-31T19:51:26 EET" finished-at="2020-07-31T19:51:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidData -->
+        <test-method status="PASS" signature="VerifyLoginPanel()[pri:1, instance:TestCasesRepository.LoginTest@694e1548]" name="VerifyLoginPanel" duration-ms="42" started-at="2020-07-31T19:51:27 EET" finished-at="2020-07-31T19:51:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPanel -->
+        <test-method status="PASS" signature="loginWithValidData()[pri:2, instance:TestCasesRepository.LoginTest@694e1548]" name="loginWithValidData" duration-ms="2905" started-at="2020-07-31T19:51:27 EET" finished-at="2020-07-31T19:51:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData -->
+        <test-method status="PASS" signature="Browser_Teardown()[pri:0, instance:TestCasesRepository.LoginTest@694e1548]" name="Browser_Teardown" is-config="true" duration-ms="716" started-at="2020-07-31T19:51:30 EET" finished-at="2020-07-31T19:51:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Teardown -->
+      </class> <!-- TestCasesRepository.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
